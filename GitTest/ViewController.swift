@@ -13,13 +13,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var pointsYall: UILabel!
     
     var points = 0.0
+    var power = 1.0
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
     @IBAction func buttonPress(_ sender: UIButton) {
-        points += 1
+        points += power
         if points != 1 {
             pointsYall.text = "\(points) points"
         } else {

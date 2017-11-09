@@ -38,7 +38,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdn-u6-HVR">
                                 <rect key="frame" x="164" y="338" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="x10"/>
+                                <state key="normal" title="+5"/>
                                 <connections>
                                     <action selector="powerIncrease10:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sh2-Vd-Gqt"/>
                                 </connections>
@@ -46,7 +46,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hho-hc-ytM">
                                 <rect key="frame" x="164" y="376" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="x100"/>
+                                <state key="normal" title="+50"/>
                                 <connections>
                                     <action selector="powerIncrease100:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hYR-sc-amB"/>
                                 </connections>
@@ -54,7 +54,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smW-JC-wXh">
                                 <rect key="frame" x="164" y="414" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="x1000"/>
+                                <state key="normal" title="+500"/>
                                 <connections>
                                     <action selector="powerIncrease1000:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VGk-d0-e4x"/>
                                 </connections>

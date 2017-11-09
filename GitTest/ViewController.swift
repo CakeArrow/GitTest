@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var pointsYall: UILabel!
     @IBOutlet weak var powerLabel: UILabel!
+    @IBOutlet weak var imageViewJawn: UIImageView!
     
     var points = 0.0
     var power = 1.0
@@ -27,6 +28,13 @@ class ViewController: UIViewController {
             pointsYall.text = "\(points) point"
         }
         powerLabel.text = "Power = \(power)"
+        
+        if Int(points) % 2 == 0{
+            imageViewJawn.image = #imageLiteral(resourceName: "newAstley")
+            pointsYall.textColor = UIColor.white
+        } else if Int(points) % 2 == 1{
+            imageViewJawn.image = #imageLiteral(resourceName: "oldAstley")
+        }
 
     }
 

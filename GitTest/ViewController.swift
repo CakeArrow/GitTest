@@ -34,6 +34,7 @@ class ViewController: UIViewController {
             pointsYall.textColor = UIColor.white
         } else if Int(points) % 2 == 1{
             imageViewJawn.image = #imageLiteral(resourceName: "newAstley")
+            pointsYall.textColor = UIColor.white
         }
 
     }

@@ -47,11 +47,17 @@
                                 <rect key="frame" x="164" y="376" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="x100"/>
+                                <connections>
+                                    <action selector="powerIncrease100:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hYR-sc-amB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smW-JC-wXh">
                                 <rect key="frame" x="164" y="414" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="x1000"/>
+                                <connections>
+                                    <action selector="powerIncrease1000:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VGk-d0-e4x"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Power = 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qwT-G0-DNg">
                                 <rect key="frame" x="98" y="309" width="178" height="21"/>

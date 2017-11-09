@@ -19,21 +19,44 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
-    @IBAction func buttonPress(_ sender: UIButton) {
-        points += power
+    
+    func update(){
         if points != 1 {
             pointsYall.text = "\(points) points"
         } else {
             pointsYall.text = "\(points) point"
         }
+        powerLabel.text = "Power = \(power)"
+
+    }
+
+    @IBAction func buttonPress(_ sender: UIButton) {
+        points += power
+        update()
     }
     
     @IBAction func powerIncrease10(_ sender: Any) {
         if points >= 10{
             points -= 10
-            power *= 10
-            powerLabel.text = "Power = \(power)"
+            power += 5
+            update()
+
+        }
+    }
+    @IBAction func powerIncrease100(_ sender: Any) {
+        if points >= 100{
+            points -= 100
+            power += 50
+            update()
+
+        }
+    }
+    @IBAction func powerIncrease1000(_ sender: Any) {
+        if points >= 1000{
+            points -= 1000
+            power += 500
+            update()
+
         }
     }
     

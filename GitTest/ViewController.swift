@@ -30,10 +30,10 @@ class ViewController: UIViewController {
         powerLabel.text = "Power = \(power)"
         
         if Int(points) % 2 == 0{
-            imageViewJawn.image = #imageLiteral(resourceName: "newAstley")
+            imageViewJawn.image = #imageLiteral(resourceName: "oldAstley")
             pointsYall.textColor = UIColor.white
         } else if Int(points) % 2 == 1{
-            imageViewJawn.image = #imageLiteral(resourceName: "oldAstley")
+            imageViewJawn.image = #imageLiteral(resourceName: "newAstley")
         }
 
     }

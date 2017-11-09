@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var pointsYall: UILabel!
+    @IBOutlet weak var powerLabel: UILabel!
     
     var points = 0.0
     var power = 1.0
@@ -27,6 +28,14 @@ class ViewController: UIViewController {
             pointsYall.text = "\(points) point"
         }
     }
-
+    
+    @IBAction func powerIncrease10(_ sender: Any) {
+        if points >= 10{
+            points -= 10
+            power *= 10
+            powerLabel.text = "Power = \(power)"
+        }
+    }
+    
 }
 
